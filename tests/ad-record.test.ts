@@ -24,3 +24,14 @@ test('Validate invalid price', () => {
 });
 
 //@TODO Check all the validations
+
+// test('Insert data in database', async () => {
+//     const ad = new AdRecord(defaultObj);
+//
+//     const newId = await ad.insert();
+//
+//     const searched = await AdRecord.getOne(newId);
+//
+//
+//     expect(searched.name).toBe('Test Name');
+// })
