@@ -4,8 +4,8 @@ import {config} from "../config/config";
 export const pool = createPool({
     host: config.dbHost,
     user: config.dbUser,
-    database: config.dbDatabase,
     password: config.dbPassword,
+    database: config.dbDatabase,
     namedPlaceholders: true,
     decimalNumbers: true,
 });
