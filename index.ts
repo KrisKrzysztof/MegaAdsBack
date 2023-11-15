@@ -1,6 +1,6 @@
 import express, {json, Router} from "express";
 import cors from 'cors';
-import 'express-async-errors';
+require('express-async-errors');
 import { handleError } from "./utils/errors";
 import rateLimit from "express-rate-limit";
 import {adRouter} from "./routers/ad.router";
